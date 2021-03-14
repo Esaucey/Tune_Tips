@@ -1,0 +1,103 @@
+body {
+    /* img used with permission: https://nicewallpaper.netlify.app/pages/copyright */
+    background-image: url("./img/b2eb2040524e4d939041997bef200fc5.jpg");
+    background-size: cover;
+    image-resolution: inherit;
+    background-repeat: no-repeat;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+    background-position: center;
+    margin-bottom: 974px;
+}
+
+#h1 {
+    color: lightcyan;
+    text-shadow: lightgray;
+    font-family: 'Orbitron', Arial, Helvetica, sans-serif;
+}
+
+.h2-font {
+    font-family: 'New Rocker', Arial, Helvetica, sans-serif;
+}
+
+.orb-text {
+    font-family: 'Orbitron', Arial, Helvetica, sans-serif;
+}
+  
+.newJumbo {
+    /* img used with permission: https://pngtree.com/copyright-notice */
+    background-image: url("./img/t-t-mini-glare-back-image_21.jpg");
+    background-position: center;
+    image-rendering: optimizeQuality;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.container-s {
+    background-color: lightgray;
+    padding: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-style: ridge;
+    border-color: indigo;
+    border-radius: 37px;
+    box-shadow: 10px 10px 10px;
+    margin: 30px;
+}
+
+.searchHist {
+    padding: 10px;
+    margin: 5px 5px 0px 0px;
+    border: 1px solid grey;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"]  {
+    width: 100%;
+    flex: 100%;
+}
+
+#cont-2 {
+    flex-direction: column;
+}}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
